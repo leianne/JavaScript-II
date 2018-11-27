@@ -92,6 +92,12 @@ let comEmails = runners.filter(function(e){
 })
 console.log(comEmails);
 
-// Problem 2
+// Problem 2 
+
+let moneyEuors = runners.map(function(e){
+    return e.donation * .89
+})
+
+console.log(moneyEuors)
 
 // Problem 3
