@@ -101,3 +101,13 @@ let moneyEuors = runners.map(function(e){
 console.log(moneyEuors)
 
 // Problem 3
+
+//Gets a list of emails and the fullname associated
+
+const emailList = [];
+
+runners.forEach(function(e){
+    emailList.sort().push(`${[e.email,  e.first_name + ' ' + e.last_name]}`);
+})
+
+console.log(emailList);
